@@ -1,25 +1,21 @@
-# Citibike Exploratory Analysis
-## by Charles Ikenna Abara
+# Exploratory analysis of Citi Bike data from 2014 to 2016
 
+## by Charles Ikenna Abara
 
 ## citi bike dataset
 
-This data set includes information about individual rides made in a bike-sharing system covering Manhattan, Brooklyn, Queens, the Bronx and Jersey City. Information about the data can be found [here](https://ride.citibikenyc.com/system-data). I will be working with citibike data from 2014 to 2016. The data is divided into monthly operation reports. I will be working with citibike data from 2014 to 2016. The data is divided into monthly operation reports. The data for all months will be loaded and merged into one dataframe. 
+This study utilizes data from a bike-sharing system in multiple locations in the New York City area, including Manhattan, Brooklyn, Queens, the Bronx, and Jersey City. The data includes information on individual bike rides, and is divided into monthly reports. The data for all months will be merged into a single dataframe for analysis. Information about the data can be found [here](https://ride.citibikenyc.com/system-data).
 
+## Summary of Findings:
 
-## Summary of Findings
+- During the univariate analysis of the data, we found that there were more short bike rides than long rides. We also identified the 20
+  most popular stations among Citi Bike users. In addition, our analysis showed that the majority of rides occurred during the day, with
+  Sunday having the fewest number of rides and Wednesday having the most.
 
-> **Univariate Exploration:**<br>
-Univariate exploration of the dataset showed that there were more short bike rides than long rides. I also filtered out the 20 most popular stations. My analysis revealed that most users take trips during the day and that Sunday had the least rides while Wednesday had the most.
+- Bivariate analysis examined the relationship between ride duration and various factors such as gender and user type. Our findings indicated that subscribers with 24-hour or 3-day passes tended to take shorter rides compared to those with annual subscriptions.
 
+- Multivariate analysis further explored the effects of gender and user type on ride duration.
 
-> **Bivariate Exploration:**<br>
-Bivariate data analysis on the dataset revealed the effect of users' gender and user type on ride duration. It revealed that Subscribers with 24-hours passes or 3-day passes took shorter rides when compared with customers with annual subscriptions. 
+## Key insights for presentation:
 
-> **Multivariate Exploration:**<br>
-My multivariate analysis delved further into the effects of gender and user type on duration.
-
-
-## Key Insights for Presentation
-
-The goal of the presentation is to communicate the findings of my exploratory analysis. This slide will give insight into Citi bikers' ride patterns and the effect of gender and user type on bike rides and ride duration.  My Explanatory Analysis will include a density destribution of duration, a pointplot of duration per hour for each gender, pointplot of duration per hour for each user type, Rides per month for each gender and Rides per month for each user type.
+In the presentation of our findings, the goal is to clearly communicate the results of our exploratory analysis to the audience. To achieve this, we will include key insights such as the distribution of ride duration, the hourly ride duration broken down by gender and user type, and the monthly ride counts for each gender and user type. Through these insights, we hope to provide a deeper understanding of Citi Bike users' ride patterns and the impact of gender and user type on these patterns.
