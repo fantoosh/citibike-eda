@@ -2,9 +2,9 @@
 
 ## by Charles Ikenna Abara
 
-## citi bike dataset
+## Citi bike dataset
 
-This study utilizes data from a bike-sharing system in multiple locations in the New York City area, including Manhattan, Brooklyn, Queens, the Bronx, and Jersey City. The data includes information on individual bike rides, and is divided into monthly reports. The data for all months will be merged into a single dataframe for analysis. Information about the data can be found [here](https://ride.citibikenyc.com/system-data).
+This study utilizes data from a bike-sharing system in multiple locations in the New York City area, including Manhattan, Brooklyn, Queens, the Bronx, and Jersey City. The data includes information on individual bike rides and is divided into monthly reports. The data for all months will be merged into a single dataframe for analysis. Information about the data can be found [here](https://ride.citibikenyc.com/system-data).
 
 ## Summary of Findings:
 
@@ -12,9 +12,9 @@ This study utilizes data from a bike-sharing system in multiple locations in the
   most popular stations among Citi Bike users. In addition, our analysis showed that the majority of rides occurred during the day, with
   Sunday having the fewest number of rides and Wednesday having the most.
 
-- Bivariate analysis examined the relationship between ride duration and various factors such as gender and user type. Our findings indicated that subscribers with 24-hour or 3-day passes tended to take shorter rides compared to those with annual subscriptions.
+- The Bivariate analysis examined the relationship between ride duration and various factors such as gender and user type. Our findings indicated that subscribers with 24-hour or 3-day passes tended to take shorter rides compared to those with annual subscriptions.
 
-- Multivariate analysis further explored the effects of gender and user type on ride duration.
+- The Multivariate analysis further explored the effects of gender and user type on ride duration.
 
 ## Key insights for presentation:
 
